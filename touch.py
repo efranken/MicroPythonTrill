@@ -56,7 +56,7 @@ class Touches1D(Touches):
         verticalSizes = data[int(len(data)/2):]
 
         self.touches = []
-        for i in range[0:len(verticalLocations)]:
+        for i in range(0,len(verticalLocations)):
             if verticalLocations[i] is not -1:
                 self.touches.append((verticalLocations[i], verticalSizes[i]))
 
